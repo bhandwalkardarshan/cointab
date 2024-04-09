@@ -5,7 +5,7 @@ import './styles.css'
 function UserCard({ user, dbUserData, setDbUserData }) {
     const navigate = useNavigate();
     
-    const baseURL = 'https://sleepy-sari-duck.cyclic.app';
+    const baseURL = 'https://cointab-backend.vercel.app';
     
     // Check if the user exists in dbUserData
     const isUserPresent = dbUserData.some(dbUser => dbUser.id === user.id);
