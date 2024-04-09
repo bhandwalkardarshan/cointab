@@ -7,7 +7,7 @@ function HomePage() {
   const [users, setUsers] = useState([]);
   const [showUsers, setShowUsers] = useState(false);
   const [dbUserData, setDbUserData] = useState([]); // State to store dbUserData
-  const baseURL = 'https://sleepy-sari-duck.cyclic.app';
+  const baseURL = 'https://cointab-backend.vercel.app';
 
   const fetchUsers = async () => {
     try {
