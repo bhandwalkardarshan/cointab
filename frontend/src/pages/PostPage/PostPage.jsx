@@ -12,7 +12,7 @@ const PostPage = () => {
   const [posts, setPosts] = useState([]);
   const [showDownloadInExcel, setshowDownloadInExcel] = useState(false); 
   const [showBulkAdd, setShowBulkAdd] = useState(true)
-  const baseURL = 'https://sleepy-sari-duck.cyclic.app';
+  const baseURL = 'https://cointab-backend.vercel.app';
 
   useEffect(() => {
     // Fetch user data
