@@ -73,7 +73,7 @@ This is a users listing platform where admin can browse the users and able to ad
 Open your browser and visit `http://localhost:<port_number>`
 
 ## Deployed Links
-    - Backend : `https://sleepy-sari-duck.cyclic.app`
+    - Backend : `https://cointab-backend.vercel.app/`
     - Frontend : `https://legendary-malasada-09214f.netlify.app`
 
 ## Contributing
